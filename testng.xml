@@ -3,7 +3,7 @@
 <suite name="Leaftaps">
   <test name="Leads">
     <classes>
-      <class name="com.leaftaps.testcases.TC001_Login"/>
+      <class name="com.leaftaps.testcases.TC001_JustLogin"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
