@@ -29,7 +29,8 @@ public class DriverInstance  extends AbstractTestNGCucumberTests{
 		switch (browser) {
 		case "chrome":
 			ChromeOptions chrome_options = new ChromeOptions();
-			chrome_options.addArguments("--start-maximized"); 
+			chrome_options.addArguments("--no-sandbox"); 
+			chrome_options.addArguments("--disable-dev-shm-usage"); 
 			chrome_options.addArguments("--disable-notifications"); 
 			chrome_options.addArguments("--headless");
 			remoteWebdriver.set(new ChromeDriver(chrome_options));
