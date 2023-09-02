@@ -50,6 +50,10 @@ public abstract class ExtentReporter extends DriverInstance {
 		htmlReporter.config().setDocumentTitle("Leaftaps--> Change AL");
 		htmlReporter.config().setEncoding("utf-8");
 		htmlReporter.config().setReportName("Leaftaps-QA-Automation DevOps");
+		htmlReporter.config().setTheme(Theme.DARK);
+		htmlReporter.config().setDocumentTitle("LeaftapsTEST");
+		htmlReporter.config().setEncoding("utf-8");
+		htmlReporter.config().setReportName("LeaftapsTEST");
 		htmlReporter.setAppendExisting(true);
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
