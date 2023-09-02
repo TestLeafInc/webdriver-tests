@@ -9,9 +9,9 @@ import com.leaftaps.pages.LoginPage;
 public class TC002_JustLogin extends ProjectHooks{
 	@BeforeTest
 	public void setValues() {
-		testcaseName = "Login";
-		testDescription ="Login to Leaftaps";
-		authors="Lakshmi";
+		testcaseName = "CreateLead";
+		testDescription ="Create to Leaftaps";
+		authors="Venkat";
 		category ="Smoke";
 		excelFileName="Login";
 	}
