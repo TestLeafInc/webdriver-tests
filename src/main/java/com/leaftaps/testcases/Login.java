@@ -1,4 +1,4 @@
-package ui.tests;
+package com.leaftaps.testcases;
 
 import java.io.File;
 import java.io.IOException;
